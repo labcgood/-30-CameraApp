@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		0D5CA35E2BF1EE1D0029A834 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5CA35D2BF1EE1D0029A834 /* AppDelegate.swift */; };
 		0D5CA3602BF1EE1D0029A834 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5CA35F2BF1EE1D0029A834 /* SceneDelegate.swift */; };
-		0D5CA3622BF1EE1D0029A834 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5CA3612BF1EE1D0029A834 /* ViewController.swift */; };
 		0D5CA3652BF1EE1D0029A834 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0D5CA3642BF1EE1D0029A834 /* Base */; };
 		0D5CA3672BF1EE1F0029A834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D5CA3662BF1EE1F0029A834 /* Assets.xcassets */; };
 		0D5CA36A2BF1EE1F0029A834 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0D5CA3692BF1EE1F0029A834 /* Base */; };
+		0D5CA3722BF1F02C0029A834 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5CA3712BF1F02C0029A834 /* PhotoViewController.swift */; };
+		0D90B6BA2BF75AEA00CBC9B0 /* Fliter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D90B6B92BF75AEA00CBC9B0 /* Fliter.swift */; };
+		0D90B6BC2BFF5D4600CBC9B0 /* AdjustTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D90B6BB2BFF5D4600CBC9B0 /* AdjustTool.swift */; };
+		0D90B6C02C01DEBA00CBC9B0 /* NaikaiFont-Regular-Lite.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D90B6BF2C01DEBA00CBC9B0 /* NaikaiFont-Regular-Lite.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0D5CA35A2BF1EE1D0029A834 /* CameraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D5CA35D2BF1EE1D0029A834 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D5CA35F2BF1EE1D0029A834 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0D5CA3612BF1EE1D0029A834 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0D5CA3642BF1EE1D0029A834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D5CA3662BF1EE1F0029A834 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D5CA3692BF1EE1F0029A834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D5CA36B2BF1EE1F0029A834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D5CA3712BF1F02C0029A834 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		0D90B6B92BF75AEA00CBC9B0 /* Fliter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fliter.swift; sourceTree = "<group>"; };
+		0D90B6BB2BFF5D4600CBC9B0 /* AdjustTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustTool.swift; sourceTree = "<group>"; };
+		0D90B6BF2C01DEBA00CBC9B0 /* NaikaiFont-Regular-Lite.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NaikaiFont-Regular-Lite.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 		0D5CA35C2BF1EE1D0029A834 /* CameraApp */ = {
 			isa = PBXGroup;
 			children = (
+				0D90B6BF2C01DEBA00CBC9B0 /* NaikaiFont-Regular-Lite.ttf */,
 				0D5CA35D2BF1EE1D0029A834 /* AppDelegate.swift */,
 				0D5CA35F2BF1EE1D0029A834 /* SceneDelegate.swift */,
-				0D5CA3612BF1EE1D0029A834 /* ViewController.swift */,
 				0D5CA3632BF1EE1D0029A834 /* Main.storyboard */,
+				0D5CA3712BF1F02C0029A834 /* PhotoViewController.swift */,
+				0D90B6B92BF75AEA00CBC9B0 /* Fliter.swift */,
+				0D90B6BB2BFF5D4600CBC9B0 /* AdjustTool.swift */,
 				0D5CA3662BF1EE1F0029A834 /* Assets.xcassets */,
 				0D5CA3682BF1EE1F0029A834 /* LaunchScreen.storyboard */,
 				0D5CA36B2BF1EE1F0029A834 /* Info.plist */,
@@ -126,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D5CA3672BF1EE1F0029A834 /* Assets.xcassets in Resources */,
+				0D90B6C02C01DEBA00CBC9B0 /* NaikaiFont-Regular-Lite.ttf in Resources */,
 				0D5CA36A2BF1EE1F0029A834 /* Base in Resources */,
 				0D5CA3652BF1EE1D0029A834 /* Base in Resources */,
 			);
@@ -138,7 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D5CA3622BF1EE1D0029A834 /* ViewController.swift in Sources */,
+				0D5CA3722BF1F02C0029A834 /* PhotoViewController.swift in Sources */,
+				0D90B6BA2BF75AEA00CBC9B0 /* Fliter.swift in Sources */,
+				0D90B6BC2BFF5D4600CBC9B0 /* AdjustTool.swift in Sources */,
 				0D5CA35E2BF1EE1D0029A834 /* AppDelegate.swift in Sources */,
 				0D5CA3602BF1EE1D0029A834 /* SceneDelegate.swift in Sources */,
 			);
@@ -292,8 +304,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FUY7Q7WR79;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CameraApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "CameraApp要求使用您的相機";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "CameraApp要求存取相片";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,8 +334,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FUY7Q7WR79;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CameraApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "CameraApp要求使用您的相機";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "CameraApp要求存取相片";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
